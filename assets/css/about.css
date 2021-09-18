@@ -17,10 +17,9 @@ nav, footer {
     height: 500px;
 }
 #about-press-title {
-    text-align: center;
+    text-align: left;
     font-size: larger;
-    color: white;
-    mix-blend-mode: difference;
+    color: black;
     transform: translate(35%, 25%);
 }
 #about-press-title a {
