@@ -19,8 +19,8 @@
 
     /* Colour Variables */
     --bg-primary: white;
-    --text-primary: #131313;
-    --text-secondary: whitesmoke;
+    --text-dark: #131313;
+    --text-light: whitesmoke;
 }
 
 /* Page Body */
@@ -31,7 +31,7 @@ body {
     font-style: normal;
     text-decoration: none;
     font-size: large;
-    color: var(--text-primary);
+    color: var(--text-dark);
 
     /* Main Content Space */
     width: 100vw;
