@@ -46,20 +46,15 @@ body {
     background: rgba(0,0,0,0.6);
 }
 
-
-#mc-embedded-subscribe:hover {
-    background: rgba(0,0,0,0.6);
-}
-
 /* CTA Buttons */
-{
+#preorder-button, #presave-button, #mc-embedded-subscribe {
     background-color: transparent;
     border: 1px solid var(--text-light);
     color: inherit;
     isolation: isolate;
     transition: 0.3s ease;
 }
-#preorder-imperf-button:hover, #presave-imperf-button:hover {
+#preorder-button:hover, #presave-button:hover, #mc-embedded-subscribe:hover {
     background: rgba(0,0,0,0.6);
 }
 
