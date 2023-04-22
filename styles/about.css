@@ -1,0 +1,45 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * About Page * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Main Content */
+main {
+}
+
+/* Navigation Bar & Footer */
+nav, footer {
+    background: transparent;
+}
+
+/* About Header */
+#about-header {
+}
+#about-press-title {
+    margin-right: 2rem;
+    text-align: right;
+    align-items: center;
+    font-size: 8vw;
+    color: var(--text-dark);
+}
+#about-press-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+#about-press-title a:hover {
+    filter: opacity(70%);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * Responsiveness * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    nav {
+        background: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+}
+@media screen and (max-width: 410px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+}
